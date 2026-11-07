@@ -1,8 +1,14 @@
 node_modules/
 dist/
+
+# Generated test reports and browser artifacts
 coverage/
 test-results/
 playwright-report/
+blob-report/
+playwright/.cache/
+
+# Local environment and generated metadata
 .env
 .env.local
 *.tsbuildinfo
