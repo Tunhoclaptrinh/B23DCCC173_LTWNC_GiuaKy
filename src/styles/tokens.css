@@ -1,0 +1,67 @@
+:root {
+  font-family: 'Be Vietnam Pro', 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --canvas: #f9faf7;
+  --surface: #fff;
+  --text: #28352e;
+  --muted: #667268;
+  --accent: #236653;
+  --accent-soft: #eaf1e9;
+  --line: #e5e8e1;
+  --subtle: #f2f4ef;
+  --paper: #f1f0e7;
+  --sidebar: 220px;
+}
+:root[data-theme='dark'] {
+  --canvas: #17201b;
+  --surface: #202923;
+  --text: #e8e9e3;
+  --muted: #a0ada3;
+  --accent: #8ec3a8;
+  --accent-soft: #2a3c31;
+  --line: #354239;
+  --subtle: #263129;
+  --paper: #2e352b;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--text);
+}
+button,
+input,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+button,
+a,
+input {
+  touch-action: manipulation;
+}
+a {
+  color: var(--accent);
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #9bbea5;
+  outline-offset: 4px;
+}
+button {
+  font-family: inherit;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  color: var(--text);
+}

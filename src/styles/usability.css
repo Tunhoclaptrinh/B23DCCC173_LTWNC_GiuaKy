@@ -1,0 +1,193 @@
+/* Comfortable reading and controls across all screen sizes. */
+.book-list {
+  scroll-margin-top: 24px;
+}
+.catalog-pagination {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.catalog-pagination .ant-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.catalog-pagination .ant-pagination-total-text {
+  color: var(--muted);
+  font-size: 11px;
+}
+.page-error {
+  min-height: 320px;
+  display: grid;
+  place-items: center;
+}
+.main-content:focus {
+  outline: none;
+}
+.book-details h3 {
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  min-height: 38px;
+}
+.book-author {
+  font-size: 10px;
+  line-height: 1.7;
+}
+.book-actions {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.stock-label {
+  font-size: 10px;
+}
+.book-actions .ant-btn {
+  height: 32px;
+  font-size: 10px;
+  padding: 0 10px;
+}
+.book-action-buttons {
+  margin-left: auto;
+}
+.return-button.ant-btn {
+  color: var(--accent);
+}
+.summary-label {
+  font-size: 11px;
+}
+.summary-card p {
+  font-size: 10px;
+}
+.search-input .ant-input {
+  font-size: 12px !important;
+}
+.result-count {
+  font-size: 10px;
+}
+.filter-row .ant-segmented {
+  font-size: 11px;
+}
+.catalog-caption {
+  font-size: 10px;
+}
+.book-meta > span:last-child {
+  font-size: 10px;
+}
+.category-tag.ant-tag {
+  font-size: 9px;
+}
+.shelf-subtitle {
+  font-size: 10px;
+}
+.shelf-limit {
+  font-size: 10px;
+}
+.shelf-book-info h3 {
+  font-size: 11px;
+}
+.shelf-book-info > span,
+.shelf-book-info .ant-btn {
+  font-size: 10px;
+}
+.shelf-book-info .ant-btn {
+  height: 28px;
+}
+.shelf-link {
+  font-size: 11px;
+}
+.book-cover-small {
+  width: 46px;
+  height: 64px;
+}
+.catalog-end {
+  font-size: 10px;
+}
+.summary-card {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+@media (max-width: 1000px) {
+  .book-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .cover-stage {
+    height: 190px;
+  }
+  .summary-label {
+    font-size: 10px;
+  }
+  .summary-card p {
+    font-size: 9px;
+  }
+  .filter-row .ant-segmented {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .summary-label {
+    font-size: 9px;
+  }
+  .summary-card p {
+    font-size: 8px;
+  }
+  .summary-card {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .book-actions .ant-btn {
+    height: 44px;
+    font-size: 11px;
+  }
+  .stock-label {
+    font-size: 10px;
+  }
+  .filter-row .ant-segmented-item-label {
+    min-height: 34px;
+    line-height: 34px;
+    padding: 0 12px;
+  }
+  .search-input.ant-input-affix-wrapper {
+    min-height: 44px;
+  }
+  .search-input .ant-input {
+    font-size: 16px !important;
+  }
+  .shelf-book-info .ant-btn {
+    min-height: 44px;
+  }
+  .catalog-caption {
+    font-size: 9px;
+  }
+  .catalog-end {
+    font-size: 9px;
+  }
+  .topbar .mobile-menu-button {
+    width: 40px;
+    height: 40px;
+  }
+  .book-details h3 {
+    font-size: 12px;
+  }
+  .book-author {
+    font-size: 10px;
+  }
+}
+@media (max-width: 380px) {
+  .filter-row .ant-segmented-item-label {
+    padding: 0 9px;
+  }
+  .filter-row .ant-segmented {
+    font-size: 9px;
+  }
+  .result-count {
+    font-size: 9px;
+  }
+  .book-actions .ant-btn {
+    padding: 0 8px;
+    font-size: 10px;
+  }
+}
