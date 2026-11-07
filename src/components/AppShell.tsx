@@ -182,7 +182,7 @@ export function AppShell({ children }: PropsWithChildren) {
             <span className="topbar-divider" />
             <div className="student-label">
               <strong>Sinh viên</strong>
-              <span>D23DCCC173</span>
+              <span>B23DCCC173</span>
             </div>
             <Avatar className="student-avatar">SV</Avatar>
           </div>

@@ -2,7 +2,11 @@
 
 Ứng dụng tra cứu và mượn/trả sách chuyên ngành cho sinh viên, xây dựng bằng **Vite, React, TypeScript và Ant Design**.
 
-Mã sinh viên: **D23DCCC173** · Môn: **Lập trình Web nâng cao** · Bài kiểm tra giữa kỳ.
+Sinh viên: **Nguyễn Tiến Tuấn** · Mã sinh viên: **B23DCCC173** · Lớp: **RIPT1411-20261-02**.
+
+Môn: **Lập trình Web nâng cao** · Bài kiểm tra giữa kỳ.
+
+Repository: [Tunhoclaptrinh/B23DCCC173_LTWNC_GiuaKy](https://github.com/Tunhoclaptrinh/B23DCCC173_LTWNC_GiuaKy) · Nhánh nộp bài: **main**.
 
 ![Giao diện Mini Library](docs/screenshots/desktop-light.png)
 
@@ -124,7 +128,7 @@ Giao diện dùng Ant Design cho Menu, Drawer, Input, Segmented, Card, Button, T
 
 ## Trước khi nộp
 
-- Tạo repository GitHub **public** tên `D23DCCC173_LTWNC_GiuaKy`.
+- Repository GitHub **public** có tên `B23DCCC173_LTWNC_GiuaKy`.
 - Đẩy mã nguồn, `package-lock.json`, tài liệu và ảnh; không đưa `node_modules`, `dist`, `coverage` lên repo.
 - Chạy `npm test` và `npm run build` trên bản cuối cùng.
 - Kiểm tra thời điểm commit cuối theo hạn giảng viên quy định; cho phép nộp trễ không thay thế điều kiện về giờ commit.

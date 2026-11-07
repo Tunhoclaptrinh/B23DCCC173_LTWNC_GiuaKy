@@ -4,7 +4,7 @@
 
 Các yêu cầu chức năng và kỹ thuật đã có triển khai, được đối chiếu theo file trong README. Redux Toolkit tiếp tục quản lý sách và khoản mượn; middleware tự viết giữ giới hạn 3 cuốn; Zustand quản lý bộ lọc; Context quản lý theme. Các phần tối ưu bổ sung giữ nguyên các yêu cầu bắt buộc như useMemo cho danh sách lọc, useCallback cho handler và React.lazy + Suspense cho `/stats`.
 
-Phần nộp bài GitHub chưa được thực hiện từ môi trường local này: cần tạo repository public đúng tên, push và kiểm tra mốc commit theo hạn giảng viên.
+Repository nộp bài là [Tunhoclaptrinh/B23DCCC173_LTWNC_GiuaKy](https://github.com/Tunhoclaptrinh/B23DCCC173_LTWNC_GiuaKy), nhánh `main`, ở chế độ public. Cần đối chiếu mốc commit với hạn giảng viên quy định.
 
 ## Những điểm đã cải thiện
 
